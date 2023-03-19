@@ -1,5 +1,4 @@
 const path = require('path');
-const PeerDepsExternalsPlugin = require('peer-deps-externals-webpack-plugin');
 
 module.exports = (_, argv) => {
     return {
@@ -104,7 +103,6 @@ module.exports = (_, argv) => {
                 }
             ]
         },
-        // plugins: [new PeerDepsExternalsPlugin()],
         watchOptions: {
             ignored: ['**/node_modules']
         }
