@@ -1,6 +1,6 @@
 {
     "name": "uniweb-widget-utils",
-    "version": "1.0.2",
+    "version": "1.0.5",
     "description": "",
     "main": "dist/bundle.js",
     "scripts": {
