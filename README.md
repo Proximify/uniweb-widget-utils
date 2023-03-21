@@ -148,7 +148,7 @@ function MyComponent() {
 
 The `Blogs` component is used to render a page that displays a list of articles and views the content of an individual article. It accepts all the props came from parent element and the following extra props:
 
--   `recommendsMode` - The mode that indicates the display of either `latest blogs` or `relative blogs` under the content of a single blog (e.g., 'latest', 'relative')
+-   `recommenderMode` - The mode that indicates the display of either `latest blogs` or `relative blogs` under the content of a single blog (e.g., 'latest', 'relative')
 
 Here's an example of how to use the `Blogs` component:
 
@@ -160,7 +160,7 @@ function MyComponent(props) {
         <div>
             <Blogs 
                 {...props} 
-                recommendsMode='relative' 
+                recommenderMode='relative' 
             />
         </div>
     );
